@@ -30,7 +30,7 @@ mongoose
 
 // Define a basic route
 app.get("/", (req, res) => {
-  res.send("Hello, World!");
+  res.send("Server is running successfully");
 });
 
 // Start the server
